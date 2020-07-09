@@ -18,11 +18,11 @@ FloatLayout:
         height: sp(50)
 
         Button:
-            text: 'Set landscape'
+            text: 'Nastav rozlozeni'
             on_release: xcamera.force_landscape()
 
         Button:
-            text: 'Restore orientation'
+            text: 'Obnov orientaci'
             on_release: xcamera.restore_orientation()
 """
 
